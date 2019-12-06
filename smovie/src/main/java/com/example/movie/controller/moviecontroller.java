@@ -26,7 +26,7 @@ public class moviecontroller {
 	@RequestMapping("/movie/entry")
 	public String signup(Pojo object)
 	{
-		String s="pathak";
+		String s=null;
 		System.out.println(s);
 		System.out.println(object);
 		try {
